@@ -6,11 +6,11 @@ precioTotal.innerHTML =`${precioFinal}€`;
 let makeup = [
     {
         id:"basedior",
-        precio: 40
+        precio: 43
     },
     {
         id:"basemac",
-        precio: 35
+        precio: 39
     },
     {
         id:"prebasecharlot",
@@ -18,105 +18,96 @@ let makeup = [
     },
     {
         id:"estelauder",
-        precio: 25
+        precio: 49
     },
     {
         id:"huda",
-        precio: 27
+        precio: 42
+    },
+    {
+        id:"glossierbase",
+        precio: 26
     },
     {
         id:"giorgio",
-        precio: 47
+        precio: 52
     },
     {
         id:"terryserum",
-        precio: 37
+        precio: 89
     },
-    {
-        id:"base",
-        precio: 37
-    },
-
     {
         id:"serumdunk",
-        precio: 37
+        precio: 70
     },
     {
         id:"serumordinary",
-        precio: 37
+        precio: 11
     },
     {
         id:"biooil",
-        precio: 37
+        precio: 6
     },
     {
         id:"cerave",
-        precio: 37
+        precio: 12
     },
     {
         id:"laneig",
-        precio: 37
+        precio: 25
     },
     {
         id:"contornokiels",
-        precio: 37
+        precio: 31
     },
     {
         id:"laura",
-        precio: 37
+        precio: 43
     },
     {
         id:"ordinary2",
-        precio: 37
+        precio: 7
     },
     {
         id:"creamvichy",
-        precio: 37
+        precio: 38
     },
     {
         id:"cremaole",
-        precio: 37
+        precio: 38
     },
     {
         id:"fenty",
-        precio: 37
+        precio: 31
     },
     {
         id:"rare",
-        precio: 37
+        precio: 23
     },
     {
         id:"lauramercie",
-        precio: 37
+        precio: 41
     },
     {
         id:"narscolorete",
-        precio: 37
+        precio: 35
     },
     {
    
         id:"correctortarte",
-        precio: 37
+        precio: 30
     },
     {
         id:"itcosmetic",
-        precio: 37
-    },
-    {
-        id:"lauramercie",
-        precio: 37
-    },
-    {
-        id:"rare",
-        precio: 37
+        precio: 40
     },
     {
         id:"chanel",
-        precio: 37
+        precio: 46
     },
     {
         id:"nars",
-        precio: 37
+        precio: 35
     },
     {
         id:"benefit",
@@ -124,7 +115,7 @@ let makeup = [
     },
     {
         id:"touch",
-        precio: 37
+        precio: 39
     },
     {
         id:"ctil",
@@ -132,15 +123,19 @@ let makeup = [
     },
     {
         id:"glosiercolorete",
-        precio: 37
+        precio: 20
     },
     {
         id:"diorlabial",
-        precio: 37
+        precio: 40
     },
     {
         id:"hourglass",
-        precio: 37
+        precio: 40
+    },
+    {
+        id:"labialmac",
+        precio: 23
     },
     {
         id:"glosierbalm",
@@ -148,31 +143,31 @@ let makeup = [
     },
     {
         id:"ctlabial",
-        precio: 37
+        precio: 22
     },
     {
         id:"tooface",
-        precio: 37
+        precio: 30
     },
     {
         id:"buxon",
-        precio: 37
+        precio: 19
     },
     {
         id:"clarins",
-        precio: 37
+        precio: 21
     },
     {
         id:"fresh",
-        precio: 37
+        precio: 22
     },
     {
         id:"dyson",
-        precio: 37
+        precio: 500
     },
     {
         id:"dysonrizador",
-        precio: 37
+        precio: 500
     },
     {
         id:"hairvitamins",
@@ -180,35 +175,35 @@ let makeup = [
     },
     {
         id:"dysonsecador",
-        precio: 37
+        precio: 400
     },
     {
         id:"hairvitamins",
-        precio: 37
+        precio: 31
     },
     {
         id:"rizador",
-        precio: 37
+        precio: 25
     },
     {
         id:"brocha",
-        precio: 37
+        precio: 51
     },
     {
         id:"uñasdior",
-        precio: 37
+        precio: 30
     },
     {
         id:"spray",
-        precio: 37
+        precio: 25
     },
     {
         id:"urban",
-        precio: 37
+        precio: 34
     },
     {
         id:"maskcaudalie",
-        precio: 37
+        precio: 23
     }
 ]
 
