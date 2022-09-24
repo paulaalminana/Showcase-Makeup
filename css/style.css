@@ -173,3 +173,13 @@ body {
     height: 3em;
 
 }
+flotante.style.cssText {
+    position:fixed;
+    top:50px;
+    left:30px;
+    border:8px 
+    solid #56aaf3;
+    padding:12px;
+    float:left;
+    width:160px;
+}  
