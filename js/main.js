@@ -240,119 +240,119 @@ function agregartxt1() {
 }
 
 function agregartxt2() {
-    let text = document.createTextNode("Serum Ordinary 11€");
+     text = document.createTextNode("Serum Ordinary 11€");
     document.getElementById("cont2").appendChild(text);
 }
 function agregartxt3() {
-    let text = document.createTextNode("Crema bio-oil 6€");
+     text = document.createTextNode("Crema bio-oil 6€");
     document.getElementById("cont3").appendChild(text);
 }
 function agregartxt4() {
-    let text = document.createTextNode("Gel limpiador cerave 12€");
+     text = document.createTextNode("Gel limpiador cerave 12€");
     document.getElementById("cont4").appendChild(text);
 }
 function agregartxt5() {
-    let text = document.createTextNode("Mascarilla labial Laneig 25€");
+     text = document.createTextNode("Mascarilla labial Laneig 25€");
     document.getElementById("cont5").appendChild(text);
 }
 function agregartxt6() {
-    let text = document.createTextNode("Contorno Kiehl's 31€");
+     text = document.createTextNode("Contorno Kiehl's 31€");
     document.getElementById("cont6").appendChild(text);
 }
 function agregartxt7() {
-    let text = document.createTextNode("Laura Mercier 43€");
+     text = document.createTextNode("Laura Mercier 43€");
     document.getElementById("cont7").appendChild(text);
 }
 function agregartxt8() {
-    let text = document.createTextNode("Crema Ordinary 7€");
+     text = document.createTextNode("Crema Ordinary 7€");
     document.getElementById("cont8").appendChild(text);
 }
 function agregartxt9() {
-    let text = document.createTextNode("Crema VICHY 38€");
+     text = document.createTextNode("Crema VICHY 38€");
     document.getElementById("cont9").appendChild(text);
 }
 function agregartxt10() {
-    let text = document.createTextNode("Crema Olehenriksen 38€");
+     text = document.createTextNode("Crema Olehenriksen 38€");
     document.getElementById("cont10").appendChild(text);
 }
 function agregartxt12() {
-    let text = document.createTextNode("Base Mac 39€");
+     text = document.createTextNode("Base Mac 39€");
     document.getElementById("cont12").appendChild(text);
 }
 function agregartxt11() {
-    let text = document.createTextNode("Base Dior 43€");
+     text = document.createTextNode("Base Dior 43€");
     document.getElementById("cont11").appendChild(text);
 }
 function agregartxt13() {
-    let text = document.createTextNode("Prebase Charlotte Tilbury 45€");
+     text = document.createTextNode("Prebase Charlotte Tilbury 45€");
     document.getElementById("cont13").appendChild(text);
 }
 function agregartxt14() {
-    let text = document.createTextNode("Base Este Lauder 49€");
+     text = document.createTextNode("Base Este Lauder 49€");
     document.getElementById("cont14").appendChild(text);
 }
 function agregartxt15() {
-    let text = document.createTextNode("Base Gloseir 26€");
+     text = document.createTextNode("Base Gloseir 26€");
     document.getElementById("cont15").appendChild(text);
 }
 function agregartxt16() {
-    let text = document.createTextNode("Base Huda 42€");
+     text = document.createTextNode("Base Huda 42€");
     document.getElementById("cont16").appendChild(text);
 }
 function agregartxt17() {
-    let text = document.createTextNode("Base Giorgio 52€");
+     text = document.createTextNode("Base Giorgio 52€");
     document.getElementById("cont17").appendChild(text);
 }
 function agregartxt18() {
-    let text = document.createTextNode("Base Terry 89€");
+     text = document.createTextNode("Base Terry 89€");
     document.getElementById("cont18").appendChild(text);
 }
 function agregartxt19() {
-    let text = document.createTextNode("Corrector tarte 30€");
+     text = document.createTextNode("Corrector tarte 30€");
     document.getElementById("cont19").appendChild(text);
 }
 function agregartxt20() {
-    let text = document.createTextNode("CC Cream It Cosmetics 40€");
+     text = document.createTextNode("CC Cream It Cosmetics 40€");
     document.getElementById("cont20").appendChild(text);
 }
 function agregartxt21() {
-    let text = document.createTextNode("Bronzer Fenty 31€");
+     text = document.createTextNode("Bronzer Fenty 31€");
     document.getElementById("cont21").appendChild(text);
 }
 function agregartxt22() {
-    let text = document.createTextNode("Blush liquido Nars 35€");
+     text = document.createTextNode("Blush liquido Nars 35€");
     document.getElementById("cont22").appendChild(text);
 }
 function agregartxt23() {
-    let text = document.createTextNode("Polvos Translucidos Laura Mercie 41€");
+     text = document.createTextNode("Polvos Translucidos Laura Mercie 41€");
     document.getElementById("cont23").appendChild(text);
 }  
 function agregartxt24() {
-    let text = document.createTextNode("Blush liquido Rare Beauty 23€");
+     text = document.createTextNode("Blush liquido Rare Beauty 23€");
     document.getElementById("cont24").appendChild(text);
 }  
 function agregartxt25() {
-    let text = document.createTextNode("Bronzer Chanel Soleil Tan 43€");
+     text = document.createTextNode("Bronzer Chanel Soleil Tan 43€");
     document.getElementById("cont25").appendChild(text);
 }  
 function agregartxt26() {
-    let text = document.createTextNode("Blush Nars Orgasm 35€");
+     text = document.createTextNode("Blush Nars Orgasm 35€");
     document.getElementById("cont26").appendChild(text);
 }  
 function agregartxt27() {
-    let text = document.createTextNode("Blush Glossier 20€");
+     text = document.createTextNode("Blush Glossier 20€");
     document.getElementById("cont27").appendChild(text);
 }  
 function agregartxt28() {
-    let text = document.createTextNode("Bronzer Hoola de Benefit  37€");
+    text = document.createTextNode("Bronzer Hoola de Benefit  37€");
     document.getElementById("cont28").appendChild(text);
 }
 function agregartxt29() {
-    let text = document.createTextNode("Iluminador Touche éclat YSL 39€");
+     text = document.createTextNode("Iluminador Touche éclat YSL 39€");
     document.getElementById("cont29").appendChild(text);
 }  
 function agregartxt30() {
-    let text = document.createTextNode("Iluminador Charlotte Tilbury 37€");
+     text = document.createTextNode("Iluminador Charlotte Tilbury 37€");
     document.getElementById("cont30").appendChild(text);
 }            
 
@@ -362,5 +362,5 @@ function ventana(){
     let t = document.createTextNode("No esta diponible la compra");       
     flotante.appendChild(t);                                         
     document.getElementById("pagar").appendChild(flotante); 
-    }  
+    } 
 
