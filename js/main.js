@@ -25,6 +25,10 @@ let makeup = [
         precio: 42
     },
     {
+        id: "hudalabial",
+        precio: 27
+    },
+    {
         id: "glossierbase",
         precio: 26
     },
@@ -143,7 +147,7 @@ let makeup = [
     },
     {
         id: "ctlabial",
-        precio: 22
+        precio: 36
     },
     {
         id: "tooface",
@@ -168,10 +172,6 @@ let makeup = [
     {
         id: "dysonrizador",
         precio: 500
-    },
-    {
-        id: "hairvitamins",
-        precio: 37
     },
     {
         id: "dysonsecador",
@@ -316,11 +316,11 @@ function agregartxt20() {
     document.getElementById("cont20").appendChild(text);
 }
 function agregartxt21() {
-     text = document.createTextNode("Bronzer Fenty 31€");
+     text = document.createTextNode("Bronceador Fenty 31€");
     document.getElementById("cont21").appendChild(text);
 }
 function agregartxt22() {
-     text = document.createTextNode("Blush liquido Nars 35€");
+     text = document.createTextNode("Colorete liquido Nars 35€");
     document.getElementById("cont22").appendChild(text);
 }
 function agregartxt23() {
@@ -328,23 +328,23 @@ function agregartxt23() {
     document.getElementById("cont23").appendChild(text);
 }  
 function agregartxt24() {
-     text = document.createTextNode("Blush liquido Rare Beauty 23€");
+     text = document.createTextNode("Colorete liquido Rare Beauty 23€");
     document.getElementById("cont24").appendChild(text);
 }  
 function agregartxt25() {
-     text = document.createTextNode("Bronzer Chanel Soleil Tan 43€");
+     text = document.createTextNode("Bronceador Chanel Soleil Tan 43€");
     document.getElementById("cont25").appendChild(text);
 }  
 function agregartxt26() {
-     text = document.createTextNode("Blush Nars Orgasm 35€");
+     text = document.createTextNode("Colorete Nars Orgasm 35€");
     document.getElementById("cont26").appendChild(text);
 }  
 function agregartxt27() {
-     text = document.createTextNode("Blush Glossier 20€");
+     text = document.createTextNode("Colorete Glossier 20€");
     document.getElementById("cont27").appendChild(text);
 }  
 function agregartxt28() {
-    text = document.createTextNode("Bronzer Hoola de Benefit  37€");
+    text = document.createTextNode("Bronceador Hoola de Benefit  37€");
     document.getElementById("cont28").appendChild(text);
 }
 function agregartxt29() {
@@ -354,7 +354,87 @@ function agregartxt29() {
 function agregartxt30() {
      text = document.createTextNode("Iluminador Charlotte Tilbury 37€");
     document.getElementById("cont30").appendChild(text);
-}            
+}  
+function agregartxt31() {
+    text = document.createTextNode("Dior Lip Glow 40€");
+   document.getElementById("cont31").appendChild(text);
+} 
+function agregartxt32() {
+    text = document.createTextNode("Barra de labios mate MAC 23€");
+   document.getElementById("cont32").appendChild(text);
+} 
+function agregartxt33() {
+    text = document.createTextNode("Barra de labios mate Huda Beauty 27€");
+   document.getElementById("cont33").appendChild(text);
+} 
+function agregartxt34() {
+    text = document.createTextNode("Barra De Labios Recargable Hourglass 40€");
+   document.getElementById("cont34").appendChild(text);
+} 
+function agregartxt35() {
+    text = document.createTextNode("Exfoliante Facial Whishful 37€");
+   document.getElementById("cont35").appendChild(text);
+} 
+function agregartxt36() {
+    text = document.createTextNode("Barra De Labios Mate Charlotte Tilbury 36€");
+   document.getElementById("cont36").appendChild(text);
+} 
+function agregartxt37() {
+    text = document.createTextNode("Gloss Labial Lip Injection Too Faced 30€");
+   document.getElementById("cont37").appendChild(text);
+} 
+function agregartxt38() {
+    text = document.createTextNode("Gloss labial Full-On Plumping Buxom 19€");
+   document.getElementById("cont38").appendChild(text);
+} 
+function agregartxt39() {
+    text = document.createTextNode("Embellecedor Labios Clarins 21€");
+   document.getElementById("cont39").appendChild(text);
+} 
+function agregartxt40() {
+    text = document.createTextNode("Bálsamo Labial Reparador Fresh 22€");
+   document.getElementById("cont40").appendChild(text);
+} 
+function agregartxt41() {
+    text = document.createTextNode("Plancha Dyson Corrale 500€");
+   document.getElementById("cont41").appendChild(text);
+} 
+function agregartxt42() {
+    text = document.createTextNode("Dyson Airwrap 500€");
+   document.getElementById("cont42").appendChild(text);
+} 
+function agregartxt43() {
+    text = document.createTextNode("Secador Dyson Supersonic 400€");
+   document.getElementById("cont43").appendChild(text);
+} 
+function agregartxt44() {
+    text = document.createTextNode("Vitaminas para el pelo 31€");
+   document.getElementById("cont44").appendChild(text);
+} 
+function agregartxt45() {
+    text = document.createTextNode("Rizador de pestañas 25€");
+   document.getElementById("cont45").appendChild(text);
+} 
+function agregartxt46() {
+    text = document.createTextNode("Brocha para fondo de maquillaje Hourglass 51€");
+   document.getElementById("cont46").appendChild(text);
+} 
+function agregartxt47() {
+    text = document.createTextNode("Dior Nail Glow 30€");
+   document.getElementById("cont47").appendChild(text);
+} 
+function agregartxt48() {
+    text = document.createTextNode("Champú Hidratante Moroccanoil 25€");
+   document.getElementById("cont48").appendChild(text);
+} 
+function agregartxt49() {
+    text = document.createTextNode("All Nighter espray fijador Urban Decay 34€");
+   document.getElementById("cont49").appendChild(text);
+} 
+function agregartxt50() {
+    text = document.createTextNode("Mascarilla Purificante Caudalíe 23€");
+   document.getElementById("cont50").appendChild(text);
+}           
 
 
     const ventana = () => {
