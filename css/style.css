@@ -175,6 +175,37 @@ body {
     justify-content: center;
     width: 20em;
     height: 3em;
+border-radius:1em;
 
 }
+pagar.hover{
+    transition:0.3s;
+    background-color: papayawhip;
+}
+.caja {
+    
+    margin-top: 0.5em;
+    margin-bottom:0.5em;
+    margin-left: 0.5em;
+    margin-left: 0.5em;
+    width: 10em;
+    height: 7em;
+    box-shadow: 1px 1px 5px 1px gainsboro;
+  }
+  .precios{
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+    height: 3em;
+border-radius:1em;
+
+}
+precios.hover{
+    transition:0.3s;
+    background-color:pink;
+}
+  
   

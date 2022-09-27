@@ -356,11 +356,18 @@ function agregartxt30() {
     document.getElementById("cont30").appendChild(text);
 }            
 
-function ventana(){
-    let flotante = document.createElement("div");
-    flotante.style.cssText='position:fixed;top:50px;left:30px;border:8px solid #56aaf3;padding:12px;width:160px;margin:12px 0 12px 0;float:left;width:160px;';                 
-    let t = document.createTextNode("No esta diponible la compra");       
-    flotante.appendChild(t);                                         
-    document.getElementById("pagar").appendChild(flotante); 
-    } 
+
+    const ventana = () => {
+        let flotante = document.createElement("div");
+        flotante.style.cssText='position: absolute;top:20em;left:30em;border:8px solid #ff0000;padding:12px;width:160px;margin:12px 0 12px 0;float:left;width:160px;background-color: white;text-align:center;';                 
+        let t = document.createTextNode("NO ESTÁ DISPONIBLE LA COMPRA EN ESTE MOMENTO");       
+        flotante.appendChild(t);                                         
+        document.getElementById("pagar").appendChild(flotante); 
+        }
+
+precios = document.getElementById("precioTotal");
+    const vaciarCarro = () => {
+        precioTotal = 0;
+        precios.innerHTML = `${precioTotal}`;
+    }
 
