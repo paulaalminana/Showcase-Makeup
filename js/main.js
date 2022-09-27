@@ -445,9 +445,10 @@ function agregartxt50() {
         document.getElementById("pagar").appendChild(flotante); 
         }
 
-precios = document.getElementById("precioTotal");
+
     const vaciarCarro = () => {
-        precioTotal = 0;
+        precios = document.getElementById("precioTotal");
+        precioTotal = 0 ;
         precios.innerHTML = `${precioTotal}`;
     }
 
