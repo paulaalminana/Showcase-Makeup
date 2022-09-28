@@ -43,9 +43,8 @@ body {
     grid-template-rows: repeat(5,8em);
 }
 @media (max-width: 600px) {
-    .caja  {
-        max-width: 10%;
-        max-height: 10%;
+    .counter1  {
+        grid-template-rows: repeat(2,1em);
         }
     }
   
@@ -253,4 +252,5 @@ precios.hover{
     height: 2em;
 
 }
+.ocultar{display:none;}
   

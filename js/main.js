@@ -228,6 +228,8 @@ const drop = (ev) => {
 
     });
 
+    
+
 
     precioFinal += makeupNuevo.precio;
     precioTotal.innerHTML = `${precioFinal}€`;
@@ -445,10 +447,19 @@ function agregartxt50() {
         document.getElementById("pagar").appendChild(flotante); 
         }
 
-
     const vaciarCarro = () => {
-        precios = document.getElementById("precioTotal");
-        precioTotal = 0 ;
-        precios.innerHTML = `${precioTotal}`;
+        
+        precioFinal = 0 ;
+        precioTotal.innerHTML = `${precioFinal}`;
+       
     }
-
+    /*
+    function mostrar(id){
+        var NuevaCapa = document.getElementById(id);
+        if(NuevaCapa.className == 'ocultar'){
+            NuevaCapa.className = '';
+        }
+        else{
+            NuevaCapa.className = 'ocultar';
+        }
+    }*/
