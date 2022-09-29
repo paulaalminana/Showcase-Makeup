@@ -442,7 +442,7 @@ function agregartxt50() {
 //ventana comprar 
     const ventana = () => {
         let flotante = document.createElement("div");
-        flotante.style.cssText='position: absolute;top:20em;left:30em;border:8px solid #ff0000;padding:12px;width:160px;margin:12px 0 12px 0;float:left;width:160px;background-color: white;text-align:center;';                 
+        flotante.style.cssText='position: absolute;top:20em;left:30em;border:8px solid #ff0000;padding:12px;width:160px;margin:12px 0 12px 0;float:left;width:160px;background-color: white;text-align:center;color:black';                 
         let t = document.createTextNode("NO ESTÁ DISPONIBLE LA COMPRA EN ESTE MOMENTO");       
         flotante.appendChild(t);                                         
         document.getElementById("pagar").appendChild(flotante); 
