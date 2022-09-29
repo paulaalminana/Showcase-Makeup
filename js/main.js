@@ -3,6 +3,7 @@ let precioTotal = document.getElementById("precioTotal");
 let precioFinal = 0;
 precioTotal.innerHTML = `${precioFinal}€`;
 
+//declarar los precios de los productos
 let makeup = [
     {
         id: "basedior",
@@ -230,12 +231,12 @@ const drop = (ev) => {
 
     
 
-
+//saca el precio final 
     precioFinal += makeupNuevo.precio;
     precioTotal.innerHTML = `${precioFinal}€`;
 
 }
-
+// funciones para saber el nombre de los productos 
 function agregartxt1() {
     let text = document.createTextNode("Serum Dunk Elephant 70€");
     document.getElementById("cont1").appendChild(text);
@@ -438,7 +439,7 @@ function agregartxt50() {
    document.getElementById("cont50").appendChild(text);
 }           
 
-
+//ventana comprar 
     const ventana = () => {
         let flotante = document.createElement("div");
         flotante.style.cssText='position: absolute;top:20em;left:30em;border:8px solid #ff0000;padding:12px;width:160px;margin:12px 0 12px 0;float:left;width:160px;background-color: white;text-align:center;';                 
@@ -446,7 +447,7 @@ function agregartxt50() {
         flotante.appendChild(t);                                         
         document.getElementById("pagar").appendChild(flotante); 
         }
-
+//borra el carro 
     const vaciarCarro = () => {
         
         precioFinal = 0 ;

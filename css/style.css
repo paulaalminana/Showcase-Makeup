@@ -46,7 +46,7 @@ body {
 }
 @media (max-width: 600px) {
     .counter1  {
-        grid-template-rows: repeat(2,1em);
+        grid-template-rows: repeat(2,8em);
         }
     }
   

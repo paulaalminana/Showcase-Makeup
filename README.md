@@ -2,7 +2,7 @@ Un readme debe de contener capturas de pantalla de nuestra app. (VARIAS).
 
 2-Un readme debe de mencionar que tecnologias se han usado para crear la aplicación.
 HTML5, CSS3 y JS
-![logos](logo.png) 
+![logos](img/logo.png) 
 
 3-Un readme debe de mencionar cual es el funcionamiento y el objetivo a realizar de la aplicación. Además por supuesto de la temática
 ### Objetivo
