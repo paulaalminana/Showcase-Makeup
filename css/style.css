@@ -10,6 +10,7 @@ body {
 }
 
     .general {
+        
 
         display: flex;
         flex-direction: row;
@@ -18,6 +19,7 @@ body {
     
         
     }
+
 
 .counter {
 
