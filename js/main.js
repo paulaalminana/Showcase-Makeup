@@ -451,7 +451,7 @@ function agregartxt50() {
     const vaciarCarro = () => {
         
         precioFinal = 0 ;
-        precioTotal.innerHTML = `${precioFinal}`;
+        precioTotal.innerHTML = `${precioFinal}€`;
        
     }
     /*
